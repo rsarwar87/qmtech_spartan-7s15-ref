@@ -1,0 +1,449 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:35 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 125836
+License: Customer
+
+Current time: 	Thu Oct 07 14:15:39 BST 2021
+Time zone: 	Greenwich Mean Time (Europe/London)
+
+OS: NAME="KDE neon"
+OS Version: 4.18.0-25-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: localhost:10.0
+Screen size: 3840x2160
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/opt/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/opt/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	rsarwar
+User home directory: /home/rsarwar
+User working directory: /media/2TB/workspace/rsarwar/work-mast/qmtech/qmtech_spartan7_ref/script
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2020.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: /home/rsarwar/.Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: /home/rsarwar/.Xilinx/Vivado/2020.1/
+Vivado layouts directory: /home/rsarwar/.Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	
+Vivado journal file location: 	
+Engine tmp dir: 	./.Xil/Vivado-125836-ukaea-fpga.ccfepc.ccfe.ac.uk
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@ccfe-license-1.ccfe.ac.uk
+XILINX_DSP: /opt/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2020.1
+XILINX_SDK: /opt/Xilinx/Vitis/2020.1
+XILINX_VITIS: /opt/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /opt/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,483 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Message: Warning: Color name "nord0" is not defined 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,483 MB. GUI used memory: 89 MB. Current time: 10/7/21, 2:15:40 PM BST
+// WARNING: HEventQueue.dispatchEvent() is taking  1503 ms.
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// WARNING: HEventQueue.dispatchEvent() is taking  1270 ms.
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd ../", true); // aF (ac, cs)
+// Tcl Command: 'cd ../'
+// Tcl Command: 'cd ../'
+// Tcl Message: cd ../ 
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "source ./scr", true); // aF (ac, cs)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// WARNING: HEventQueue.dispatchEvent() is taking  1233 ms.
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "source ./script/", true); // aF (ac, cs)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "source ./script/QmTech-S7-15.tcl"); // aF (ac, cs)
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// bz (cs):  Tcl Command Line : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: source ./script/QmTech-S7-15.tcl 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 108 MB (+110430kb) [00:03:35]
+// [Engine Memory]: 1,498 MB (+1419442kb) [00:03:35]
+// [GUI Memory]: 123 MB (+10579kb) [00:03:36]
+// [GUI Memory]: 142 MB (+13438kb) [00:03:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  2448 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,530 MB. GUI used memory: 96 MB. Current time: 10/7/21, 2:19:05 PM BST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 7169.773 ; gain = 37.035 ; free physical = 24967 ; free virtual = 111940 
+// Tcl Message: ERROR: [Vivado 12-172] File or Directory '/media/2TB/workspace/rsarwar/work-mast/qmtech/qmtech_spartan7_ref/hdl/top.vhd' does not exist 
+// [GUI Memory]: 153 MB (+4024kb) [00:03:39]
+dismissDialog("Tcl Command Line"); // bz (cs)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 427ms to process. Increasing delay to 3000 ms.
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 833, 110); // dT (ae, cs)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dT (ae, cs)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 776, 112); // dT (ae, cs)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 784, 114); // dT (ae, cs)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dT (ae, cs)
+// Tcl Command: 'rdi::info_commands {start_guiclo*}'
+// Tcl Command: 'rdi::info_commands {start_guiclok*}'
+// Tcl Command: 'rdi::info_commands {start_guiclo*}'
+// Tcl Command: 'rdi::info_commands {c*}'
+// Tcl Command: 'rdi::info_commands {close_pro*}'
+// Tcl Command: 'rdi::info_commands {close_projec*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  1314 ms.
+// Elapsed time: 35 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "close_project", true); // aF (ac, cs)
+// Tcl Command: 'close_project'
+// Tcl Command: 'close_project'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cs)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,551 MB. GUI used memory: 95 MB. Current time: 10/7/21, 2:19:52 PM BST
+// Tcl Message: close_project 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cs)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cs)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cs)
+// Elapsed time: 17 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "source ./script/QmTech-S7-15.tcl", true); // aF (ac, cs)
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// bz (cs):  Tcl Command Line : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1145 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: source ./script/QmTech-S7-15.tcl 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: ERROR: [Vivado 12-172] File or Directory '/media/2TB/workspace/rsarwar/work-mast/qmtech/qmtech_spartan7_ref/constraints/CmodA7_SkyTracker.xdc' does not exist 
+dismissDialog("Tcl Command Line"); // bz (cs)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 477ms to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 879, 100); // dT (ae, cs)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 879, 100, false, false, false, false, true); // dT (ae, cs) - Double Click
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dT (ae, cs)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "close_project", true); // aF (ac, cs)
+// Tcl Command: 'close_project'
+// Tcl Command: 'close_project'
+// TclEventType: PROJECT_CLOSE
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,561 MB. GUI used memory: 96 MB. Current time: 10/7/21, 2:20:39 PM BST
+// Tcl Message: close_project 
+// Tcl Command: 'rdi::info_commands {close_project*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "close_project"); // aF (ac, cs)
+// Elapsed time: 42 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "source ./script/QmTech-S7-15.tcl", true); // aF (ac, cs)
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// bz (cs):  Tcl Command Line : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: source ./script/QmTech-S7-15.tcl 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1388 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Vivado 12-172] File or Directory '/media/2TB/workspace/rsarwar/work-mast/qmtech/qmtech_spartan7_ref/constraints/debug.xdc' does not exist 
+dismissDialog("Tcl Command Line"); // bz (cs)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 580ms to process. Increasing delay to 3000 ms.
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 859, 114); // dT (ae, cs)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 859, 114, false, false, false, false, true); // dT (ae, cs) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dT (ae, cs)
+// [Engine Memory]: 1,578 MB (+5387kb) [00:06:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,578 MB. GUI used memory: 98 MB. Current time: 10/7/21, 2:21:40 PM BST
+// Elapsed time: 36 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "close_project", true); // aF (ac, cs)
+// Tcl Command: 'close_project'
+// Tcl Command: 'close_project'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cs)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,561 MB. GUI used memory: 97 MB. Current time: 10/7/21, 2:22:10 PM BST
+// Tcl Message: close_project 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "update_compile_order -fileset sources_1"); // aF (ac, cs)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "source ./script/QmTech-S7-15.tcl", true); // aF (ac, cs)
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// Tcl Command: 'source ./script/QmTech-S7-15.tcl'
+// bz (cs):  Tcl Command Line : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1359 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: source ./script/QmTech-S7-15.tcl 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+dismissDialog("Tcl Command Line"); // bz (cs)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 508ms to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// G (cs): Invalid Top Module: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1071 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_SPECIFY_NEW_TOP_MODULE, "Specify a new top module:"); // a (Q, G)
+// WARNING: HEventQueue.dispatchEvent() is taking  1092 ms.
+setText(PAResourceEtoH.FloatingTopDialog_SELECT_TOP_MODULE_OF_YOUR_DESIGN, "top_design", true); // ac (ai, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (G)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top top_design [get_filesets sim_1] 
+dismissDialog("Invalid Top Module"); // G (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_design(Behavioral) (top_design.vhd)]", 1, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_design(Behavioral) (top_design.vhd)]", 1, false, false, false, false, false, true); // B (F, cs) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,608 MB. GUI used memory: 101 MB. Current time: 10/7/21, 2:22:50 PM BST
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 531, 112); // dT (ae, cs)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_LAUNCH
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 20 
+// Tcl Message: [Thu Oct  7 14:23:11 2021] Launched synth_1... Run output will be captured here: /media/2TB/workspace/rsarwar/work-mast/qmtech/qmtech_spartan7_ref/Qmtech-S7-15T/Qmtech-S7-15T.runs/synth_1/runme.log [Thu Oct  7 14:23:11 2021] Launched impl_1... Run output will be captured here: /media/2TB/workspace/rsarwar/work-mast/qmtech/qmtech_spartan7_ref/Qmtech-S7-15T/Qmtech-S7-15T.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, null, -1); // u (J, cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 458ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 136 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  2411 ms.
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream Complete! ; 1.9480284452438354 ; 0.0 ; 0.25077706575393677 ; 0.0 ; 0.0 ; 0.20382706820964813 ; 0 ; 206 ; 165 ; 0.0 ; 0 ; 0 ; Thu Oct 07 14:23:54 BST 2021 ; 00:00:42 ; Performance_NetDelay_high* (Vivado Implementation 2020) ; Vivado Implementation Default Reports (Vivado Implementation 2020) ; xc7s15ftgb196-1 ; ukaea-fpga.ccfepc.ccfe.ac.uk ; To compensate for optimistic delay estimation, add extra delay cost to long distance and high fanout connections. (high setting, most pessimistic)", 1, "100", 3, false); // az (J, cs)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
